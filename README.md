@@ -4,10 +4,6 @@ Site de armazenamento e gerenciamento de arquivos (Clone do Dropbox) escrito em 
 
 Neste aplicativo da web é possível adicionar, renomear e excluir arquivos, bem como organizá-los em pastas.
 
-Para executar esta aplicação localmente, é necessário 
-
-Ao criá-la, [inicialize o SDK e configure a sua variável de ambiente](https://firebase.google.com/docs/admin/setup?authuser=0#initialize-sdk)
-
 ## Começo rápido 
 
 Para colocar este projeto em execução localmente em seu computador:
