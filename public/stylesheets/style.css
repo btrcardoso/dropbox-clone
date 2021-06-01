@@ -1,0 +1,79 @@
+.list-group.files{
+  width:95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.toast{
+  position: fixed;
+  width: 45%;
+  bottom: 30;
+  left: 30;
+}
+
+body{
+  background-color: rgb(230, 230, 230);
+}
+.navbar{
+  background-color: #6d6d6d;
+}
+.btn{
+  background-color: #d4d4d4;
+}
+.a-item{
+  background-color: #f7f7f7;
+  color: black;
+}
+.a-item:focus,.a-item:hover{
+  background-color: #eeeeee;
+  color: black;
+}
+.a-item.selected{
+  background-color: rgb(179 179 179);
+  color: black;
+}
+.toast-progress-body{
+  background-color: #d2d2d2;
+}
+.toast-header{
+  background-color: rgba(240, 240, 240, 0.85);
+  color: #797979;
+}
+
+body.dark-theme{
+  background-color: rgb(63, 62, 62);
+  color: white;
+}
+.navbar.dark-theme{
+  background-color: rgb(27 26 26);
+}
+.btn.dark-theme{
+  background-color: #37393c;
+}
+.a-item.dark-theme{
+  background-color: #4e4e4e;
+  color: white;
+}
+.a-item.dark-theme:focus,.a-item.dark-theme:hover{
+  background-color: #585858;
+  color: white;
+}
+.a-item.dark-theme.selected{
+  background-color: #272727;
+  color: white;
+}
+.toast-progress.dark-theme{
+  background-color: #313131;
+  color: white;
+}
+.toast-header.dark-theme{
+  background-color: rgba(28, 28, 28, 0.85);
+  color: #ddd;
+}
+.modal-content.dark-theme{
+  background-color: #484848;
+}
+
+
+/*background-color: rgba(28, 28, 28, 0.85)
+color: #ddd;*/

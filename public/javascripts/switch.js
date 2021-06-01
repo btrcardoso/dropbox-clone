@@ -1,0 +1,1 @@
+window.switch = new SwitchController(false);

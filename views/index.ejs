@@ -1,0 +1,102 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon.ico">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-fixed navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Dropbox Clone</a>
+        <button type="button" class="btn btn-light" id="switch-theme" style="border-radius: 100%;">
+            <svg class="bi" width="23" height="23" fill="currentColor">
+              <use xlink:href="bootstrap-icons/bootstrap-icons.svg#brightness-high-fill"/>
+            </svg>
+            <span class="visually-hidden">Button</span>
+        </button>
+      </div>
+    </nav>
+      
+    <div class="d-flex align-items-start">
+      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button type="button" class="btn btn-light" id="btn-send-files">
+          <svg class="bi" width="17" height="17" fill="currentColor">
+            <use xlink:href="bootstrap-icons/bootstrap-icons.svg#upload"/>
+          </svg> Send Files
+        </button>
+        <input style="display:none;" type="file" id="input-files" multiple>
+        <button type="button" class="btn btn-light" id="btn-new-folder" data-bs-toggle="modal" data-bs-target="#nameModal"> 
+          <svg class="bi" width="17" height="17" fill="currentColor">
+            <use xlink:href="bootstrap-icons/bootstrap-icons.svg#folder"/>
+          </svg> New Folder
+        </button>
+        <button type="button" class="btn btn-light" id="btn-delete" style="display: none;"> 
+          <svg class="bi" width="17" height="17" fill="currentColor">
+            <use xlink:href="bootstrap-icons/bootstrap-icons.svg#trash"/>
+          </svg> Delete
+        </button>
+        <button type="button" class="btn btn-light" id="btn-rename" style="display: none;" data-bs-toggle="modal" data-bs-target="#nameModal"> 
+          <svg class="bi" width="17" height="17" fill="currentColor">
+            <use xlink:href="bootstrap-icons/bootstrap-icons.svg#pen"/>
+          </svg> Rename
+        </button>
+      </div>
+      <div style="width:100%;">
+        <div>
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            
+            </ol>
+          </nav>
+        </div>
+        <div class="list-group files">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="toast align-items-center fade hide toast-progress" role="alert" aria-live="assertive" aria-atomic="true"  id="toast-progress">
+      <div class="toast-header toast-header-progress">
+        <strong class="me-auto">Loading</strong>
+      </div>
+      <div class="toast-body">
+        Making changes...
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="nameModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Name:</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="input-new-name">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button id="btn-close-modal" type="button" class="btn" data-bs-dismiss="modal">Cancel</button>
+            <button id="btn-submit-new-name" type="button" class="btn">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+    <script src="javascripts/controller/switchController.js"></script>
+    <script src="javascripts/switch.js"></script>
+
+    <script src="javascripts/controller/listFilesController.js"></script>
+    <script src="javascripts/listFiles.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
