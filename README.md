@@ -6,12 +6,14 @@ Neste aplicativo da web é possível adicionar, renomear e excluir arquivos, bem
 
 ## Visão do site
 
+### Organização de Arquivos
 ![Screenshot from 2021-06-01 21-51-37](https://user-images.githubusercontent.com/72050839/120408074-aa664480-c324-11eb-9f06-906c026bfe33.png)
 
-![Screenshot from 2021-06-01 21-50-55](https://user-images.githubusercontent.com/72050839/120408118-c10c9b80-c324-11eb-9fe1-bf276550c31f.png)
+### Modo Claro/Escuro
+![Screenshot from 2021-06-01 22-11-12](https://user-images.githubusercontent.com/72050839/120408907-52c8d880-c326-11eb-898d-6e4db6fbafc0.png)
 
+### Design Responsivo
 ![Screenshot from 2021-06-01 21-48-55](https://user-images.githubusercontent.com/72050839/120408241-03ce7380-c325-11eb-8a4e-e721f6e511ab.png)
-
 
 ## Começo rápido 
 
