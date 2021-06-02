@@ -284,6 +284,7 @@ class listFilesController {
                 break;
             case 'audio/mp3':
             case 'audio/ogg':
+            case 'audio/mpeg':
                 return 'file-music';
                 break;
             case 'video/mp4':
