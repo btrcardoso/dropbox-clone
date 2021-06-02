@@ -4,6 +4,15 @@ Site de armazenamento e gerenciamento de arquivos (Clone do Dropbox) escrito em 
 
 Neste aplicativo da web é possível adicionar, renomear e excluir arquivos, bem como organizá-los em pastas.
 
+## Visão do site
+
+![Screenshot from 2021-06-01 21-51-37](https://user-images.githubusercontent.com/72050839/120408074-aa664480-c324-11eb-9f06-906c026bfe33.png)
+
+![Screenshot from 2021-06-01 21-50-55](https://user-images.githubusercontent.com/72050839/120408118-c10c9b80-c324-11eb-9fe1-bf276550c31f.png)
+
+![Screenshot from 2021-06-01 21-48-55](https://user-images.githubusercontent.com/72050839/120408241-03ce7380-c325-11eb-8a4e-e721f6e511ab.png)
+
+
 ## Começo rápido 
 
 Para colocar este projeto em execução localmente em seu computador:
